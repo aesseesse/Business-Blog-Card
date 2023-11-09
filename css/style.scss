@@ -10,12 +10,11 @@
 body{
     background-color: #F2F5F9;
     font-size: 16px;
-    margin:25%;
     width: 1280px;
 }
 
 .card{
-    display: block;
+    display: inline-block;
     position: relative;
     width: 410px;
     height: 252px;
@@ -25,6 +24,7 @@ body{
     border-radius: 16px;
     .card-content1{
         position: relative;
+        display: block;
         width: 410px;
         .img-card{
             display:inline-block;
@@ -48,6 +48,7 @@ body{
 
         .content-card-txt{
             margin: 0px 30px 20px 30px;
+            display: block;
             .title-card {
                 h2{
                     padding-bottom: 10px;
